@@ -90,3 +90,7 @@ def signUp():
 	finally:
 		cursor.close() 
 		conn.close()
+
+		
+#if __name__ == "__main__":
+#    app.run(ssl_context='adhoc')
