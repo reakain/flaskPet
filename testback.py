@@ -2,11 +2,21 @@ from flask import Flask, redirect, render_template, request, url_for, json
 # from flask.ext.mysql import MySQL
 from werkzeug import generate_password_hash, check_password_hash
 from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager
 
 # mysql = MySQL()
 
+login_manager = LoginManager()
+
 app = Flask(__name__)
 app.config["DEBUG"] = True
+
+# Login managing
+login_manager.init_app(app)
+# Check for user info?
+@login_manager.user_loader
+def load_user(user_id):
+    return User.get(user_id)
 
 with open("datab","r") as f:
 	temp = f.read().splitlines()
@@ -91,6 +101,6 @@ def signUp():
 		cursor.close() 
 		conn.close()
 
-		
+			
 #if __name__ == "__main__":
 #    app.run(ssl_context='adhoc')
