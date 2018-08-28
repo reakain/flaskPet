@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <table>
+        <tr valign="top">
+            <td><img src="{{ pet.petimg(128) }}"></td>
+            <td>
+				<h1>Name: {{ pet.petname }}</h1>
+				Owner: <a href="{{ url_for('user', username=owner.username) }}">{{ owner.username }}</a>
+				{% if pet.about_me %}<p>{{ pet.about_me }}</p>{% endif %}
+				{% if owner == current_user %}
+                <p><a href="{{ url_for('edit_petpage') }}">Edit your pet's profile.</a></p>
+                {% endif %}
+			</td>
+        </tr>
+    </table>
+    <hr>
+{% endblock %}

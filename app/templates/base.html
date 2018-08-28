@@ -15,6 +15,10 @@
 	{% else %}
 	<a href="{{ url_for('user', username=current_user.username) }}">Profile</a>
 	<a href="{{ url_for('logout') }}">Logout</a>
+	<a href="{{ url_for('cave') }}">Cave</a>
+	<a href="{{ url_for('map') }}">Map</a>
+	<a href="{{ url_for('forum') }}">Forums</a>
+	<a href="{{ url_for('itemshop') }}">Shop</a>
 	{% endif %}
 	</div>
 	<hr>

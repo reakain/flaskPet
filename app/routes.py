@@ -101,6 +101,21 @@ def edit_petpage():
     return render_template('edit_petpage.html', title='Edit Pet Page',
                            form=form)
 						   
+@app.route('/cave')
+@login_required
+def cave():
+	return render_template('cave.html')
+	
+@app.route('/map')
+@login_required
+def worldmap():
+	return render_template('map.html')
+	
+@app.route('/forums')
+@login_required
+def forums():
+	return render_template('forum.html')
+						   
 @app.route('/follow/<username>')
 @login_required
 def follow(username):
