@@ -1,2 +1,2 @@
-# hina
-Hina's website for the thing.
+# flaskPet
+Pet site app for flask, includes flaskBB instance for linked forum
