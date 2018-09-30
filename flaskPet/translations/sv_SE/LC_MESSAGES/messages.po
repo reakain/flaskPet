@@ -1,0 +1,1863 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# 
+# Translators:
+# Johan Smolinski <transifex.js@crypt.se>, 2017
+# Philip Andersen <renegadevi@codeofmagi.net>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: FlaskPet\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-05-03 12:13+0200\n"
+"PO-Revision-Date: 2018-05-03 10:17+0000\n"
+"Last-Translator: Peter Justin\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/flaskpet/flaskpet/language/sv_SE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: flaskpet/email.py:31
+msgid "Password Recovery Confirmation"
+msgstr "Återställning av lösenord"
+
+#: flaskpet/email.py:55 flaskpet/templates/auth/account_activation.html:1
+#: flaskpet/templates/auth/account_activation.html:10
+msgid "Account Activation"
+msgstr "Kontoaktivering"
+
+#: flaskpet/auth/forms.py:26 flaskpet/management/forms.py:35
+msgid "You can only use letters, numbers or dashes."
+msgstr "Endast bokstäver, siffor och bindestreck är tillåtet."
+
+#: flaskpet/auth/forms.py:32
+msgid "Username or Email address"
+msgstr "Användarnamn eller e-postadress"
+
+#: flaskpet/auth/forms.py:35
+msgid "Please enter your username or email address."
+msgstr "Ange användarnamn eller e-postadress."
+
+#: flaskpet/auth/forms.py:41 flaskpet/auth/forms.py:73 flaskpet/auth/forms.py:97
+#: flaskpet/auth/forms.py:130 flaskpet/user/forms.py:67
+msgid "Password"
+msgstr "Lösenord"
+
+#: flaskpet/auth/forms.py:42 flaskpet/auth/forms.py:98 flaskpet/user/forms.py:68
+msgid "Please enter your password."
+msgstr "Ange ditt lösenord."
+
+#: flaskpet/auth/forms.py:45
+msgid "Remember me"
+msgstr "Stanna inloggad"
+
+#: flaskpet/auth/forms.py:47 flaskpet/templates/auth/login.html:1
+#: flaskpet/templates/auth/login.html:10 flaskpet/templates/layout.html:118
+msgid "Login"
+msgstr "Logga in"
+
+#: flaskpet/auth/forms.py:48 flaskpet/auth/forms.py:52 flaskpet/auth/forms.py:82
+#: flaskpet/auth/forms.py:113
+msgid "Captcha"
+msgstr "Captcha"
+
+#: flaskpet/auth/forms.py:57 flaskpet/auth/forms.py:144
+#: flaskpet/management/forms.py:55 flaskpet/templates/forum/memberlist.html:45
+#: flaskpet/templates/forum/search_result.html:104
+#: flaskpet/templates/management/banned_users.html:62
+#: flaskpet/templates/management/users.html:61
+msgid "Username"
+msgstr "Användarnamn"
+
+#: flaskpet/auth/forms.py:59
+msgid "A valid username is required"
+msgstr "Ange ett giltigt användarnamn"
+
+#: flaskpet/auth/forms.py:65 flaskpet/auth/forms.py:106
+#: flaskpet/auth/forms.py:122 flaskpet/auth/forms.py:152
+#: flaskpet/management/forms.py:59
+msgid "Email address"
+msgstr "E-postadress"
+
+#: flaskpet/auth/forms.py:67 flaskpet/auth/forms.py:108
+#: flaskpet/auth/forms.py:124 flaskpet/auth/forms.py:154
+#: flaskpet/management/forms.py:60 flaskpet/user/forms.py:40
+msgid "A valid email address is required."
+msgstr "Ange en giltig e-postadress."
+
+#: flaskpet/auth/forms.py:68 flaskpet/auth/forms.py:155
+#: flaskpet/management/forms.py:61 flaskpet/user/forms.py:41
+#: flaskpet/user/forms.py:46 flaskpet/user/forms.py:49
+msgid "Invalid email address."
+msgstr "Ogiltig e-postadress"
+
+#: flaskpet/auth/forms.py:76 flaskpet/auth/forms.py:133
+msgid "Passwords must match."
+msgstr "Lösenorden måste matcha."
+
+#: flaskpet/auth/forms.py:80 flaskpet/auth/forms.py:137
+msgid "Confirm password"
+msgstr "Bekräfta lösenord"
+
+#: flaskpet/auth/forms.py:84 flaskpet/user/forms.py:32
+msgid "Language"
+msgstr "Språk"
+
+#: flaskpet/auth/forms.py:87
+msgid "I accept the Terms of Service"
+msgstr "Jag accepterar användarvillkoren."
+
+#: flaskpet/auth/forms.py:88
+msgid "Please accept the TOS."
+msgstr "Du måste godkänna användarvillkoren."
+
+#: flaskpet/auth/forms.py:92 flaskpet/templates/auth/register.html:1
+#: flaskpet/templates/auth/register.html:10 flaskpet/templates/layout.html:123
+msgid "Register"
+msgstr "Registrera"
+
+#: flaskpet/auth/forms.py:101 flaskpet/templates/auth/reauth.html:1
+#: flaskpet/templates/auth/reauth.html:10
+msgid "Refresh Login"
+msgstr "Uppdatera inloggning"
+
+#: flaskpet/auth/forms.py:115
+msgid "Request Password"
+msgstr "Begär lösenord"
+
+#: flaskpet/auth/forms.py:139
+msgid "Reset password"
+msgstr "Återställ lösenord"
+
+#: flaskpet/auth/forms.py:146 flaskpet/management/forms.py:56
+msgid "A valid username is required."
+msgstr "Ange ett giltigt användarnamn."
+
+#: flaskpet/auth/forms.py:159
+msgid "Send Confirmation Mail"
+msgstr "Skicka bekräftelsebrev"
+
+#: flaskpet/auth/plugins.py:35
+#, python-format
+msgid "An account activation email has been sent to %(email)s"
+msgstr "Vi har skickat ett bekräftelsebrev till %(email)s."
+
+#: flaskpet/auth/plugins.py:43
+msgid "Thanks for registering."
+msgstr "Tack för registreringen!"
+
+#: flaskpet/auth/views.py:49
+msgid "Logged out"
+msgstr "Utloggad"
+
+#: flaskpet/auth/views.py:80
+msgid "Unrecoverable error while handling login"
+msgstr ""
+
+#: flaskpet/auth/views.py:107
+msgid "Reauthenticated."
+msgstr "Behörighet bekräftad."
+
+#: flaskpet/auth/views.py:112
+msgid "Unrecoverable error while handling reauthentication"
+msgstr ""
+
+#: flaskpet/auth/views.py:161
+msgid "Could not process registration dueto an unrecoverable error"
+msgstr ""
+
+#: flaskpet/auth/views.py:196
+msgid ""
+"You have entered an username or email address that is not linked with your "
+"account."
+msgstr "Användarnamnet eller lösenordet tillhör inte ditt konto."
+
+#: flaskpet/auth/views.py:202
+msgid "Email sent! Please check your inbox."
+msgstr "Vi har skickat dig ett brev."
+
+#: flaskpet/auth/views.py:237
+msgid "Error when resetting password"
+msgstr ""
+
+#: flaskpet/auth/views.py:248
+msgid "Your password has been updated."
+msgstr "Ditt lösenord är uppdaterat."
+
+#: flaskpet/auth/views.py:277
+msgid "A new account activation token has been sent to your email address."
+msgstr "Vi har skickat dig en ny aktiveringskod till din e-postadress."
+
+#: flaskpet/auth/views.py:312
+msgid "Could not activate account due to an unrecoverable error"
+msgstr ""
+
+#: flaskpet/auth/views.py:320
+msgid "Your account has been activated and you can now login."
+msgstr ""
+
+#: flaskpet/auth/services/activation.py:33
+msgid "Entered email doesn't exist"
+msgstr ""
+
+#: flaskpet/auth/services/activation.py:36
+#: flaskpet/auth/services/activation.py:53
+msgid "Account is already activated"
+msgstr ""
+
+#: flaskpet/auth/services/authentication.py:70
+msgid ""
+"Your account is currently locked out due to too many failed login attempts"
+msgstr ""
+
+#: flaskpet/auth/services/authentication.py:127
+msgid ""
+"In order to use your account you have to activate it through the link we "
+"have sent to your email address."
+msgstr "Vänligen aktivera ditt konto genom den länk vi har skickat till din e-postadress."
+
+#: flaskpet/auth/services/authentication.py:161
+msgid "Wrong username or password."
+msgstr "Felaktigt användarnamn eller lösenord."
+
+#: flaskpet/auth/services/password.py:35
+msgid "Invalid email"
+msgstr ""
+
+#: flaskpet/auth/services/reauthentication.py:74
+msgid "Wrong password."
+msgstr "Fel lösenord."
+
+#: flaskpet/auth/services/registration.py:50
+#, python-format
+msgid "Username must be between %(min)s and %(max)s characters long"
+msgstr ""
+
+#: flaskpet/auth/services/registration.py:61
+#, python-format
+msgid "%(username)s is a forbidden username"
+msgstr ""
+
+#: flaskpet/auth/services/registration.py:83
+#, python-format
+msgid "%(username)s is already registered"
+msgstr ""
+
+#: flaskpet/auth/services/registration.py:105
+#, python-format
+msgid "%(email)s is already registered"
+msgstr ""
+
+#: flaskpet/core/tokens.py:41
+msgid "Token is invalid"
+msgstr ""
+
+#: flaskpet/core/tokens.py:49
+msgid "Token is expired"
+msgstr ""
+
+#: flaskpet/core/tokens.py:56
+msgid "Token cannot be processed"
+msgstr ""
+
+#: flaskpet/forum/forms.py:28
+msgid "Quick reply"
+msgstr "Snabbsvar"
+
+#: flaskpet/forum/forms.py:29 flaskpet/forum/forms.py:40
+#: flaskpet/forum/forms.py:63
+msgid "You cannot post a reply without content."
+msgstr "Skriv något!"
+
+#: flaskpet/forum/forms.py:31 flaskpet/forum/forms.py:45
+#: flaskpet/templates/forum/topic_controls.html:113
+msgid "Reply"
+msgstr "Svara"
+
+#: flaskpet/forum/forms.py:39 flaskpet/forum/forms.py:62
+#: flaskpet/forum/forms.py:111
+msgid "Content"
+msgstr "Innehåll"
+
+#: flaskpet/forum/forms.py:42 flaskpet/forum/forms.py:65
+msgid "Track this topic"
+msgstr "Följ denna tråd"
+
+#: flaskpet/forum/forms.py:46 flaskpet/forum/forms.py:69
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: flaskpet/forum/forms.py:59
+msgid "Topic title"
+msgstr "Rubrik"
+
+#: flaskpet/forum/forms.py:60
+msgid "Please choose a title for your topic."
+msgstr "Ange en rubrik"
+
+#: flaskpet/forum/forms.py:68
+msgid "Post Topic"
+msgstr "Skapa tråd"
+
+#: flaskpet/forum/forms.py:84 flaskpet/templates/management/reports.html:39
+msgid "Reason"
+msgstr "Anledning"
+
+#: flaskpet/forum/forms.py:85
+msgid "What is the reason for reporting this post?"
+msgstr "Vad är anledningen till att du rapporterar det här inlägget?"
+
+#: flaskpet/forum/forms.py:88
+msgid "Report post"
+msgstr "Anmäl inlägg"
+
+#: flaskpet/forum/forms.py:96 flaskpet/forum/forms.py:100
+#: flaskpet/forum/forms.py:115 flaskpet/templates/forum/memberlist.html:29
+#: flaskpet/templates/forum/search_form.html:1
+#: flaskpet/templates/forum/search_form.html:10
+#: flaskpet/templates/forum/search_form.html:15
+#: flaskpet/templates/forum/search_result.html:1
+#: flaskpet/templates/forum/search_result.html:10
+#: flaskpet/templates/layout.html:79
+#: flaskpet/templates/management/banned_users.html:39
+#: flaskpet/templates/management/users.html:38
+msgid "Search"
+msgstr "Sök"
+
+#: flaskpet/forum/forms.py:108
+msgid "Criteria"
+msgstr "Kriterier"
+
+#: flaskpet/forum/forms.py:112
+msgid "Post"
+msgstr "Inlägg"
+
+#: flaskpet/forum/forms.py:112 flaskpet/templates/forum/edit_forum.html:31
+#: flaskpet/templates/forum/forum.html:49
+#: flaskpet/templates/forum/search_result.html:134
+#: flaskpet/templates/forum/topictracker.html:31
+#: flaskpet/templates/management/reports.html:38
+msgid "Topic"
+msgstr "Tråd"
+
+#: flaskpet/forum/forms.py:113 flaskpet/templates/forum/category.html:9
+#: flaskpet/templates/forum/category_layout.html:8
+#: flaskpet/templates/forum/edit_forum.html:13
+#: flaskpet/templates/forum/forum.html:10
+#: flaskpet/templates/forum/memberlist.html:12
+#: flaskpet/templates/forum/new_post.html:11
+#: flaskpet/templates/forum/new_topic.html:11
+#: flaskpet/templates/forum/search_form.html:9
+#: flaskpet/templates/forum/search_result.html:9
+#: flaskpet/templates/forum/search_result.html:213
+#: flaskpet/templates/forum/topic.html:10
+#: flaskpet/templates/forum/topic_horizontal.html:10
+#: flaskpet/templates/forum/topictracker.html:14
+#: flaskpet/templates/layout.html:77
+#: flaskpet/templates/management/banned_users.html:8
+#: flaskpet/templates/management/category_form.html:8
+#: flaskpet/templates/management/forum_form.html:8
+#: flaskpet/templates/management/forums.html:7
+#: flaskpet/templates/management/forums.html:61
+#: flaskpet/templates/management/group_form.html:8
+#: flaskpet/templates/management/groups.html:7
+#: flaskpet/templates/management/overview.html:7
+#: flaskpet/templates/management/plugins.html:7
+#: flaskpet/templates/management/reports.html:8
+#: flaskpet/templates/management/settings.html:7
+#: flaskpet/templates/management/user_form.html:8
+#: flaskpet/templates/management/users.html:7
+#: flaskpet/templates/user/all_posts.html:6
+#: flaskpet/templates/user/all_topics.html:6
+#: flaskpet/templates/user/profile.html:5
+#: flaskpet/templates/user/settings_layout.html:6
+msgid "Forum"
+msgstr "Forumkategorier"
+
+#: flaskpet/forum/forms.py:113 flaskpet/templates/forum/search_result.html:99
+#: flaskpet/templates/management/users.html:1
+#: flaskpet/templates/management/users.html:33
+msgid "Users"
+msgstr "Användare"
+
+#: flaskpet/forum/views.py:194
+msgid "Cannot post reply"
+msgstr "Kunde inte besvara inlägg"
+
+#: flaskpet/forum/views.py:294
+msgid "In order to perform this action you have to select at least one topic."
+msgstr "Välj en eller flera trådar."
+
+#: flaskpet/forum/views.py:310
+#, python-format
+msgid "%(count)s topics locked."
+msgstr "%(count)s låsta trådar."
+
+#: flaskpet/forum/views.py:320
+#, python-format
+msgid "%(count)s topics unlocked."
+msgstr "%(count)s olåsta trådar."
+
+#: flaskpet/forum/views.py:331
+#, python-format
+msgid "%(count)s topics highlighted."
+msgstr "%(count)s stjärnmärkta trådar."
+
+#: flaskpet/forum/views.py:341
+#, python-format
+msgid "%(count)s topics trivialized."
+msgstr "%(count)s vanliga trådar."
+
+#: flaskpet/forum/views.py:352
+#, python-format
+msgid "%(count)s topics deleted."
+msgstr "%(count)s borttagna trådar."
+
+#: flaskpet/forum/views.py:360
+msgid "Please choose a new forum for the topics."
+msgstr "Välj ett nytt forum."
+
+#: flaskpet/forum/views.py:370
+msgid "You do not have the permissions to move this topic."
+msgstr "Du kan inte flytta denna tråd."
+
+#: flaskpet/forum/views.py:376
+msgid "Topics moved."
+msgstr "Trådar flyttade."
+
+#: flaskpet/forum/views.py:378
+msgid "Failed to move topics."
+msgstr "Misslyckades att flytta trådar."
+
+#: flaskpet/forum/views.py:390
+#, python-format
+msgid "%(count)s topics hidden."
+msgstr "%(count)stråd dold."
+
+#: flaskpet/forum/views.py:400
+#, python-format
+msgid "%(count)s topics unhidden."
+msgstr "%(count)strådar synliga."
+
+#: flaskpet/forum/views.py:404
+msgid "Unknown action requested"
+msgstr "Okänd åtgärd"
+
+#: flaskpet/forum/views.py:502
+msgid "Thanks for reporting."
+msgstr "Tack för din anmälan!"
+
+#: flaskpet/forum/views.py:598
+#, python-format
+msgid "%(topic_count)s topics untracked."
+msgstr "%(topic_count)s ej följda trådar"
+
+#: flaskpet/forum/views.py:724
+#, python-format
+msgid "Forum %(forum)s marked as read."
+msgstr "%(forum)s markerat som läst."
+
+#: flaskpet/forum/views.py:749
+msgid "All forums marked as read."
+msgstr "Alla forum markerade som lästa."
+
+#: flaskpet/forum/views.py:793
+msgid "You do not have permission to hide this topic"
+msgstr "Du har inte behörighet att dölja denna tråd"
+
+#: flaskpet/forum/views.py:811
+msgid "You do not have permission to unhide this topic"
+msgstr "Du har inte behörighet att visa denna tråd"
+
+#: flaskpet/forum/views.py:827
+msgid "You do not have permission to hide this post"
+msgstr "Du har inte behörighet att dölja detta inlägg"
+
+#: flaskpet/forum/views.py:831
+msgid "Post is already hidden"
+msgstr "Inlägget är redan dolt"
+
+#: flaskpet/forum/views.py:840
+msgid "Topic hidden"
+msgstr "Tråd dolt"
+
+#: flaskpet/forum/views.py:842
+msgid "Post hidden"
+msgstr "Inlägg dolt"
+
+#: flaskpet/forum/views.py:857
+msgid "You do not have permission to unhide this post"
+msgstr "Du har inte behörighet att visa detta inlägg"
+
+#: flaskpet/forum/views.py:861
+msgid "Post is already unhidden"
+msgstr "Inlägget är redan synligt"
+
+#: flaskpet/forum/views.py:866
+msgid "Post unhidden"
+msgstr "Inlägg synligt"
+
+#: flaskpet/management/forms.py:66 flaskpet/user/forms.py:85
+msgid "Birthday"
+msgstr "Födelsedag"
+
+#: flaskpet/management/forms.py:69 flaskpet/user/forms.py:88
+msgid "Gender"
+msgstr "Kön"
+
+#: flaskpet/management/forms.py:71 flaskpet/user/forms.py:90
+msgid "Male"
+msgstr "Man"
+
+#: flaskpet/management/forms.py:72 flaskpet/user/forms.py:91
+msgid "Female"
+msgstr "Kvinna"
+
+#: flaskpet/management/forms.py:74 flaskpet/user/forms.py:93
+msgid "Location"
+msgstr "Bostadsort"
+
+#: flaskpet/management/forms.py:77
+#: flaskpet/templates/forum/search_result.html:48 flaskpet/user/forms.py:96
+msgid "Website"
+msgstr "Hemsida"
+
+#: flaskpet/management/forms.py:80 flaskpet/user/forms.py:99
+msgid "Avatar"
+msgstr "Avatar"
+
+#: flaskpet/management/forms.py:83
+msgid "Forum signature"
+msgstr "Signatur"
+
+#: flaskpet/management/forms.py:86 flaskpet/user/forms.py:105
+msgid "Notes"
+msgstr "Anteckningar"
+
+#: flaskpet/management/forms.py:89
+msgid "Is active?"
+msgstr "Aktiv?"
+
+#: flaskpet/management/forms.py:93
+msgid "Primary group"
+msgstr "Huvudgrupp"
+
+#: flaskpet/management/forms.py:98
+msgid "Secondary groups"
+msgstr "Andrahandsgrupper"
+
+#: flaskpet/management/forms.py:104 flaskpet/management/forms.py:235
+#: flaskpet/management/forms.py:395 flaskpet/management/forms.py:477
+#: flaskpet/templates/management/settings.html:70 flaskpet/user/forms.py:35
+#: flaskpet/user/forms.py:51 flaskpet/user/forms.py:77 flaskpet/user/forms.py:108
+msgid "Save"
+msgstr "Spara"
+
+#: flaskpet/management/forms.py:120
+msgid "This username is already taken."
+msgstr "Användarnamnet är upptaget."
+
+#: flaskpet/management/forms.py:136 flaskpet/user/forms.py:63
+msgid "This email address is already taken."
+msgstr "E-postadressen används redan."
+
+#: flaskpet/management/forms.py:160
+msgid "Group name"
+msgstr "Gruppnamn"
+
+#: flaskpet/management/forms.py:161
+msgid "Please enter a name for the group."
+msgstr "Namnge gruppen."
+
+#: flaskpet/management/forms.py:163 flaskpet/management/forms.py:346
+#: flaskpet/management/forms.py:465 flaskpet/templates/management/groups.html:35
+msgid "Description"
+msgstr "Beskrivning"
+
+#: flaskpet/management/forms.py:167
+msgid "Is 'Admin' group?"
+msgstr "Administrationsgrupp?"
+
+#: flaskpet/management/forms.py:168
+msgid "With this option the group has access to the admin panel."
+msgstr "Detta val ger gruppen behörighet att använda administrationspanelen."
+
+#: flaskpet/management/forms.py:172
+msgid "Is 'Super Moderator' group?"
+msgstr "Supermoderatorgrupp?"
+
+#: flaskpet/management/forms.py:173
+msgid ""
+"Check this, if the users in this group are allowed to moderate every forum."
+msgstr "Detta val ger användare i gruppen behörighet att moderera samtliga forum."
+
+#: flaskpet/management/forms.py:177
+msgid "Is 'Moderator' group?"
+msgstr "Moderatorgrupp?"
+
+#: flaskpet/management/forms.py:178
+msgid ""
+"Check this, if the users in this group are allowed to moderate specified "
+"forums."
+msgstr "Detta val ger användare i gruppen behörighet att moderera specifika forum."
+
+#: flaskpet/management/forms.py:182
+msgid "Is 'Banned' group?"
+msgstr "Avstängd?"
+
+#: flaskpet/management/forms.py:183
+msgid "Only one group of type 'Banned' is allowed."
+msgstr "Det kan endast finnas en grupp av typen \"avstängd\"."
+
+#: flaskpet/management/forms.py:186
+msgid "Is 'Guest' group?"
+msgstr "Gäst?"
+
+#: flaskpet/management/forms.py:187
+msgid "Only one group of type 'Guest' is allowed."
+msgstr "Det kan endast finnas en grupp av typen \"gäst\"."
+
+#: flaskpet/management/forms.py:190
+msgid "Can edit posts"
+msgstr "Kan redigera inlägg"
+
+#: flaskpet/management/forms.py:191
+msgid "Check this, if the users in this group can edit posts."
+msgstr "Detta val ger användare i gruppen behörighet att redigera inlägg."
+
+#: flaskpet/management/forms.py:194
+msgid "Can delete posts"
+msgstr "Kan ta bort inlägg"
+
+#: flaskpet/management/forms.py:195
+msgid "Check this, if the users in this group can delete posts."
+msgstr "Detta val ger användare i gruppen behörighet att ta bort inlägg."
+
+#: flaskpet/management/forms.py:199
+msgid "Can delete topics"
+msgstr "Kan ta bort trådar"
+
+#: flaskpet/management/forms.py:200
+msgid "Check this, if the users in this group can delete topics."
+msgstr "Detta val ger användare i gruppen behörighet att ta bort trådar."
+
+#: flaskpet/management/forms.py:204
+msgid "Can create topics"
+msgstr "Kan skapa trådar"
+
+#: flaskpet/management/forms.py:205
+msgid "Check this, if the users in this group can create topics."
+msgstr "Detta val ger användare i gruppen behörighet att skapa trådar."
+
+#: flaskpet/management/forms.py:209
+msgid "Can post replies"
+msgstr "Kan svara på inlägg"
+
+#: flaskpet/management/forms.py:210
+msgid "Check this, if the users in this group can post replies."
+msgstr "Detta val ger användare i gruppen behörighet att svara på inlägg."
+
+#: flaskpet/management/forms.py:215
+msgid "Moderators can edit user profiles"
+msgstr "Moderatorer kan redigera användarprofiler"
+
+#: flaskpet/management/forms.py:216
+msgid ""
+"Allow moderators to edit another user's profile including password and email"
+" changes."
+msgstr "Detta val ger moderatorer behörighet att redigera andra användares profiler, såsom lösenord och epostadress."
+
+#: flaskpet/management/forms.py:221
+msgid "Moderators can ban users"
+msgstr "Moderatorer kan stänga av användare"
+
+#: flaskpet/management/forms.py:222
+msgid "Allow moderators to ban other users."
+msgstr "Detta val ger moderatorer behörighet att stänga av andra användare."
+
+#: flaskpet/management/forms.py:226
+msgid "Can view hidden posts and topics"
+msgstr "Kan visa dolda inlägg och trådar"
+
+#: flaskpet/management/forms.py:227
+msgid "Allows a user to view hidden posts and topics"
+msgstr "Tillåt en användare att visa dolda inlägg och trådar"
+
+#: flaskpet/management/forms.py:231
+msgid "Can hide posts and topics"
+msgstr "Kan dölja inlägg och trådar"
+
+#: flaskpet/management/forms.py:232
+msgid "Allows a user to hide posts and topics"
+msgstr "Tillåter användare att dölja inlägg och trådar"
+
+#: flaskpet/management/forms.py:251
+msgid "This group name is already taken."
+msgstr "Gruppnamnet är redan upptaget."
+
+#: flaskpet/management/forms.py:265
+msgid "There is already a group of type 'Banned'."
+msgstr "Det finns redan en grupp av typen \"avstängd\"."
+
+#: flaskpet/management/forms.py:280
+msgid "There is already a group of type 'Guest'."
+msgstr "Det finns redan en grupp av typen \"gäst\"."
+
+#: flaskpet/management/forms.py:303
+msgid "Can't assign any permissions to this group."
+msgstr ""
+
+#: flaskpet/management/forms.py:341
+msgid "Forum title"
+msgstr "Forumrubrik"
+
+#: flaskpet/management/forms.py:342
+msgid "Please enter a forum title."
+msgstr "Ange en forumrubrik."
+
+#: flaskpet/management/forms.py:348 flaskpet/management/forms.py:467
+msgid "You can format your description with Markdown."
+msgstr "Du kan använda Markdown för att formatera din text."
+
+#: flaskpet/management/forms.py:352 flaskpet/management/forms.py:471
+msgid "Position"
+msgstr "Ordning"
+
+#: flaskpet/management/forms.py:354
+msgid "Please enter a position for theforum."
+msgstr "Ange en sorteringsordning för detta forum."
+
+#: flaskpet/management/forms.py:359
+msgid "Category"
+msgstr "Kategori"
+
+#: flaskpet/management/forms.py:363
+msgid "The category that contains this forum."
+msgstr "Kategorin detta forum tillhör."
+
+#: flaskpet/management/forms.py:367
+msgid "External link"
+msgstr "Extern länk"
+
+#: flaskpet/management/forms.py:369
+msgid "A link to a website i.e. 'http://flaskpet.org'."
+msgstr "Länk till en webplats, exempelvis 'http://flaskpet.org'."
+
+#: flaskpet/management/forms.py:373
+#: flaskpet/templates/forum/category_layout.html:80
+#: flaskpet/templates/forum/search_result.html:283
+#: flaskpet/templates/management/forums.html:136
+msgid "Moderators"
+msgstr "Moderatorer"
+
+#: flaskpet/management/forms.py:374
+msgid ""
+"Comma separated usernames. Leave it blank if you do not want to set any "
+"moderators."
+msgstr "Kommaseparerad lista av användarnamn. Lämna fältet tomt om du inte vill ange några moderatorer."
+
+#: flaskpet/management/forms.py:379
+msgid "Show moderators"
+msgstr "Visa moderatorer"
+
+#: flaskpet/management/forms.py:380
+msgid "Do you want to show the moderators on the index page?"
+msgstr "Välj om du vill presentera moderatorerna på startsidan."
+
+#: flaskpet/management/forms.py:384
+msgid "Locked?"
+msgstr "Låst?"
+
+#: flaskpet/management/forms.py:385
+msgid "Disable new posts and topics in this forum."
+msgstr "Tillåt inte några nya inlägg eller trådar i detta forum."
+
+#: flaskpet/management/forms.py:389
+msgid "Group access"
+msgstr "Gruppbehörighet"
+
+#: flaskpet/management/forms.py:392
+msgid "Select the groups that can access this forum."
+msgstr "Markera de grupper som ska ha behörighet till detta forum."
+
+#: flaskpet/management/forms.py:400
+msgid "You cannot convert a forum that contains topics into an external link."
+msgstr "Det går inte att konvertera ett forum med trådar till en extern länk."
+
+#: flaskpet/management/forms.py:406
+msgid "You also need to specify some moderators."
+msgstr "Ange några moderatorer."
+
+#: flaskpet/management/forms.py:418
+#, python-format
+msgid "%(user)s is not in a moderators group."
+msgstr "%(user)s är inte moderator."
+
+#: flaskpet/management/forms.py:461
+msgid "Category title"
+msgstr "Kategorinamn"
+
+#: flaskpet/management/forms.py:462
+msgid "Please enter a category title."
+msgstr "Ange ett namn på kategorin."
+
+#: flaskpet/management/forms.py:473
+msgid "Please enter a position for the category."
+msgstr "Ange en sorteringsordning på kategorin."
+
+#: flaskpet/management/views.py:117
+msgid "Settings saved."
+msgstr "Inställningarna är sparade."
+
+#: flaskpet/management/views.py:197 flaskpet/management/views.py:242
+msgid "Edit User"
+msgstr "Redigera användaren"
+
+#: flaskpet/management/views.py:238
+msgid "User updated."
+msgstr "Användaren är uppdaterad."
+
+#: flaskpet/management/views.py:280
+msgid "You cannot delete yourself."
+msgstr "Det är inte bra att ta bort sig själv."
+
+#: flaskpet/management/views.py:284
+msgid "User deleted."
+msgstr "Användaren är borttagen."
+
+#: flaskpet/management/views.py:294 flaskpet/management/views.py:305
+#: flaskpet/templates/management/banned_users.html:24
+#: flaskpet/templates/management/user_form.html:24
+#: flaskpet/templates/management/users.html:23
+msgid "Add User"
+msgstr "Lägg till användare"
+
+#: flaskpet/management/views.py:301
+msgid "User added."
+msgstr "Användaren är tillagd."
+
+#: flaskpet/management/views.py:358
+msgid "You do not have the permissions to ban this user."
+msgstr "Du har inte behörighet att stänga av denna användare."
+
+#: flaskpet/management/views.py:387
+#: flaskpet/templates/management/banned_users.html:95
+#: flaskpet/templates/management/users.html:121
+msgid "Unban"
+msgstr "Återaktivera"
+
+#: flaskpet/management/views.py:404
+msgid "A moderator cannot ban an admin user."
+msgstr "Moderatorer har inte behörighet att stänga av administratörer."
+
+#: flaskpet/management/views.py:408
+msgid "User is now banned."
+msgstr "Användaren är avstängd."
+
+#: flaskpet/management/views.py:410
+msgid "Could not ban user."
+msgstr "Kunde inte stänga av användaren."
+
+#: flaskpet/management/views.py:421
+msgid "You do not have the permissions to unban this user."
+msgstr "Du har inte behörighet att återaktivera denna användare."
+
+#: flaskpet/management/views.py:438 flaskpet/templates/management/users.html:110
+msgid "Ban"
+msgstr "Stäng av"
+
+#: flaskpet/management/views.py:454
+msgid "User is now unbanned."
+msgstr "Användaren är återaktiverad."
+
+#: flaskpet/management/views.py:456
+msgid "Could not unban user."
+msgstr "Det går inte att återaktivera användaren."
+
+#: flaskpet/management/views.py:483 flaskpet/management/views.py:494
+#: flaskpet/templates/management/group_form.html:21
+#: flaskpet/templates/management/groups.html:20
+msgid "Add Group"
+msgstr "Lägg till grupp"
+
+#: flaskpet/management/views.py:490
+msgid "Group added."
+msgstr "Grupp tillagd"
+
+#: flaskpet/management/views.py:506 flaskpet/management/views.py:524
+msgid "Edit Group"
+msgstr "Redigera grupp"
+
+#: flaskpet/management/views.py:520
+msgid "Group updated."
+msgstr "Grupp uppdaterad"
+
+#: flaskpet/management/views.py:556
+msgid "You cannot delete one of the standard groups."
+msgstr "Du kan inte radera en av standardgrupperna."
+
+#: flaskpet/management/views.py:565
+msgid "You cannot delete the standard groups. Try renaming it instead."
+msgstr "Du kan inte radera standardgrupper. Försök att döpa om grupperna istället."
+
+#: flaskpet/management/views.py:574
+msgid "Group deleted."
+msgstr "Grupp raderad."
+
+#: flaskpet/management/views.py:577
+msgid "No group chosen."
+msgstr "Ingen grupp vald."
+
+#: flaskpet/management/views.py:606 flaskpet/management/views.py:627
+#: flaskpet/templates/management/forums.html:155
+msgid "Edit Forum"
+msgstr "Redigera forum"
+
+#: flaskpet/management/views.py:615
+msgid "Forum updated."
+msgstr "Forum uppdaterat"
+
+#: flaskpet/management/views.py:645 flaskpet/management/views.py:662
+#: flaskpet/templates/management/category_form.html:21
+#: flaskpet/templates/management/forum_form.html:21
+#: flaskpet/templates/management/forums.html:20
+#: flaskpet/templates/management/forums.html:43
+msgid "Add Forum"
+msgstr "Skapa forum"
+
+#: flaskpet/management/views.py:653
+msgid "Forum added."
+msgstr "Forum tillagt."
+
+#: flaskpet/management/views.py:678
+msgid "Forum deleted."
+msgstr "Forum raderat."
+
+#: flaskpet/management/views.py:690 flaskpet/management/views.py:702
+#: flaskpet/templates/management/category_form.html:22
+#: flaskpet/templates/management/forum_form.html:22
+#: flaskpet/templates/management/forums.html:21
+msgid "Add Category"
+msgstr "Lägg till kategori"
+
+#: flaskpet/management/views.py:698
+msgid "Category added."
+msgstr "Kategori tillagd."
+
+#: flaskpet/management/views.py:718 flaskpet/management/views.py:734
+#: flaskpet/templates/management/forums.html:46
+msgid "Edit Category"
+msgstr "Redigera kategori"
+
+#: flaskpet/management/views.py:728
+msgid "Category updated."
+msgstr "Kategorin uppdaterad."
+
+#: flaskpet/management/views.py:750
+msgid "Category with all associated forums deleted."
+msgstr "Kategori med alla associerade forum raderade."
+
+#: flaskpet/management/views.py:815
+#, python-format
+msgid "Report %(id)s is already marked as read."
+msgstr "%(id)s är redan markerad som läst."
+
+#: flaskpet/management/views.py:823
+#, python-format
+msgid "Report %(id)s marked as read."
+msgstr "Markera %(id)s som läst."
+
+#: flaskpet/management/views.py:837
+msgid "All reports were marked as read."
+msgstr "Markera alla anmälningar som lästa."
+
+#: flaskpet/management/views.py:871
+msgid "Report deleted."
+msgstr "Anmälning raderaad."
+
+#: flaskpet/management/views.py:954
+#, python-format
+msgid "Plugin %(plugin)s is already enabled."
+msgstr "Tillägget %(plugin)s är redan aktiverat."
+
+#: flaskpet/management/views.py:963
+#, python-format
+msgid "Plugin %(plugin)s enabled. Please restart FlaskPet now."
+msgstr "Tillägget %(plugin)s aktiverad. Vänligen starta om FlaskPet nu."
+
+#: flaskpet/management/views.py:980
+#, python-format
+msgid "Plugin %(plugin)s is already disabled."
+msgstr ""
+
+#: flaskpet/management/views.py:988
+#, python-format
+msgid "Plugin %(plugin)s disabled. Please restart FlaskPet now."
+msgstr "Tillägget %(plugin)s är nu inaktiverat. Vänligen starta om FlaskPet nu."
+
+#: flaskpet/management/views.py:1004
+msgid "Plugin has been uninstalled."
+msgstr "Tillägget är nu avinstallerat."
+
+#: flaskpet/management/views.py:1017
+#, python-format
+msgid "Can't install plugin. Enable '%(plugin)s' plugin first."
+msgstr ""
+
+#: flaskpet/management/views.py:1025
+msgid "Plugin has been installed."
+msgstr "Tillägg har blivit installerat."
+
+#: flaskpet/templates/confirm_dialog.html:6
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: flaskpet/templates/confirm_dialog.html:9
+msgid ""
+"Are you sure that you want to perform this action? This action is "
+"irreversible."
+msgstr "Är du säker? Du kan inte få det ogjort."
+
+#: flaskpet/templates/confirm_dialog.html:12
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: flaskpet/templates/confirm_dialog.html:13
+msgid "Yes"
+msgstr "Ja"
+
+#: flaskpet/templates/forum/memberlist.html:1
+#: flaskpet/templates/forum/memberlist.html:13
+#: flaskpet/templates/forum/memberlist.html:39 flaskpet/templates/layout.html:78
+msgid "Memberlist"
+msgstr "Medlemslista"
+
+#: flaskpet/templates/forum/topictracker.html:1
+#: flaskpet/templates/forum/topictracker.html:15
+#: flaskpet/templates/forum/topictracker.html:26
+#: flaskpet/templates/layout.html:97
+msgid "Topic Tracker"
+msgstr "Trådar du följer"
+
+#: flaskpet/templates/layout.html:100
+#: flaskpet/templates/user/settings_layout.html:8
+msgid "Settings"
+msgstr "Inställningar"
+
+#: flaskpet/templates/layout.html:102
+#: flaskpet/templates/management/banned_users.html:9
+#: flaskpet/templates/management/category_form.html:9
+#: flaskpet/templates/management/forum_form.html:9
+#: flaskpet/templates/management/forums.html:8
+#: flaskpet/templates/management/group_form.html:9
+#: flaskpet/templates/management/groups.html:8
+#: flaskpet/templates/management/overview.html:8
+#: flaskpet/templates/management/plugins.html:8
+#: flaskpet/templates/management/reports.html:9
+#: flaskpet/templates/management/settings.html:8
+#: flaskpet/templates/management/user_form.html:9
+#: flaskpet/templates/management/users.html:8
+msgid "Management"
+msgstr "Administration"
+
+#: flaskpet/templates/layout.html:106
+msgid "Logout"
+msgstr "Logga ut"
+
+#: flaskpet/templates/auth/reset_password.html:1
+#: flaskpet/templates/auth/reset_password.html:10
+#: flaskpet/templates/layout.html:125
+msgid "Reset Password"
+msgstr "Återställ lösenord"
+
+#: flaskpet/templates/macros.html:327
+msgid "Pages"
+msgstr "Sidor"
+
+#: flaskpet/templates/auth/forgot_password.html:1
+#: flaskpet/templates/auth/forgot_password.html:10
+msgid "Forgot Password"
+msgstr "Glömt lösenord"
+
+#: flaskpet/templates/auth/login.html:27
+msgid "Not a member yet?"
+msgstr "Blivande medlem?"
+
+#: flaskpet/templates/auth/login.html:28
+msgid "Forgot your Password?"
+msgstr "Glömt ditt lösenord?"
+
+#: flaskpet/templates/auth/request_account_activation.html:1
+#: flaskpet/templates/auth/request_account_activation.html:10
+msgid "Request Account Activation"
+msgstr "Begär kontoaktivering"
+
+#: flaskpet/templates/email/activate_account.html:3
+#: flaskpet/templates/email/reset_password.html:2
+#, python-format
+msgid "Dear %(username)s,"
+msgstr ""
+
+#: flaskpet/templates/email/activate_account.html:5
+msgid "Click the link below to activate your account:"
+msgstr "Klicka på länken för att aktivera ditt konto:"
+
+#: flaskpet/templates/email/activate_account.html:9
+#: flaskpet/templates/email/reset_password.html:8
+msgid "Sincerely,"
+msgstr "Vänlig hälsning"
+
+#: flaskpet/templates/email/activate_account.html:10
+#: flaskpet/templates/email/reset_password.html:9
+msgid "The Administration"
+msgstr "Administration"
+
+#: flaskpet/templates/email/reset_password.html:4
+msgid "Click the link below to reset your password:"
+msgstr "Klicka på länken för att återställa ditt lösenord:"
+
+#: flaskpet/templates/errors/forbidden_page.html:1
+msgid "Forbidden"
+msgstr "Åtkomst nekas"
+
+#: flaskpet/templates/errors/forbidden_page.html:9
+msgid "403 - Forbidden Page"
+msgstr "403 - Åtkomst nekas"
+
+#: flaskpet/templates/errors/forbidden_page.html:10
+msgid "You do not have the permission to view this page."
+msgstr "Du har inte åtkomst till denna sida."
+
+#: flaskpet/templates/errors/forbidden_page.html:11
+#: flaskpet/templates/errors/page_not_found.html:11
+msgid "Back to the Forums"
+msgstr "Tillbaka till forumöversikten"
+
+#: flaskpet/templates/errors/page_not_found.html:1
+msgid "Page not found"
+msgstr "Sidan saknas"
+
+#: flaskpet/templates/errors/page_not_found.html:9
+msgid "404 - Page not found!"
+msgstr "404 - Sidan saknas!"
+
+#: flaskpet/templates/errors/page_not_found.html:10
+msgid "The page you were looking for does not exist."
+msgstr "Sidan du söker finns inte."
+
+#: flaskpet/templates/errors/server_error.html:1
+msgid "Server Error"
+msgstr "Serverfel"
+
+#: flaskpet/templates/errors/server_error.html:9
+msgid "500 - Server Error"
+msgstr "500 - Serverfel"
+
+#: flaskpet/templates/errors/server_error.html:10
+msgid "Something went wrong!"
+msgstr "Ett fel har uppstått."
+
+#: flaskpet/templates/errors/too_many_logins.html:1
+msgid "Too Many Requests"
+msgstr "För många begärda anslutningar"
+
+#: flaskpet/templates/errors/too_many_logins.html:9
+msgid "429 - Too Many Requests"
+msgstr "429 - För många begärda anslutningar"
+
+#: flaskpet/templates/errors/too_many_logins.html:10
+msgid ""
+"In order to prevent brute force attacks on accounts we have limited the "
+"amount of requests on this route."
+msgstr "För att skydda oss mot så kallade brute force-attacker har vi infört en begränsing på antal tillåtna anslutningar."
+
+#: flaskpet/templates/forum/category_layout.html:9
+#: flaskpet/templates/forum/search_result.html:129
+#: flaskpet/templates/forum/search_result.html:214
+#: flaskpet/templates/management/overview.html:91
+#: flaskpet/templates/user/all_posts.html:28
+#: flaskpet/templates/user/all_topics.html:8
+#: flaskpet/templates/user/all_topics.html:28
+#: flaskpet/templates/user/profile_layout.html:63
+msgid "Topics"
+msgstr "Trådar"
+
+#: flaskpet/templates/forum/category_layout.html:10
+#: flaskpet/templates/forum/edit_forum.html:32
+#: flaskpet/templates/forum/forum.html:50
+#: flaskpet/templates/forum/memberlist.html:52
+#: flaskpet/templates/forum/search_result.html:16
+#: flaskpet/templates/forum/search_result.html:40
+#: flaskpet/templates/forum/search_result.html:105
+#: flaskpet/templates/forum/search_result.html:135
+#: flaskpet/templates/forum/search_result.html:215
+#: flaskpet/templates/forum/topic.html:53
+#: flaskpet/templates/forum/topic_horizontal.html:60
+#: flaskpet/templates/forum/topictracker.html:32
+#: flaskpet/templates/management/banned_users.html:63
+#: flaskpet/templates/management/overview.html:94
+#: flaskpet/templates/management/users.html:62
+#: flaskpet/templates/user/all_posts.html:8
+#: flaskpet/templates/user/all_posts.html:34
+#: flaskpet/templates/user/all_topics.html:34
+#: flaskpet/templates/user/profile_layout.html:69
+msgid "Posts"
+msgstr "Inlägg"
+
+#: flaskpet/templates/forum/category_layout.html:11
+#: flaskpet/templates/forum/edit_forum.html:34
+#: flaskpet/templates/forum/forum.html:52
+#: flaskpet/templates/forum/search_result.html:137
+#: flaskpet/templates/forum/search_result.html:216
+#: flaskpet/templates/forum/topictracker.html:34
+msgid "Last Post"
+msgstr "Senaste inlägget"
+
+#: flaskpet/templates/forum/category_layout.html:27
+#: flaskpet/templates/forum/search_result.html:232
+#: flaskpet/templates/management/forums.html:79
+msgid "Link to"
+msgstr "Länk"
+
+#: flaskpet/templates/forum/category_layout.html:114
+#: flaskpet/templates/forum/edit_forum.html:68
+#: flaskpet/templates/forum/edit_forum.html:91
+#: flaskpet/templates/forum/forum.html:87
+#: flaskpet/templates/forum/forum.html:115
+#: flaskpet/templates/forum/search_result.html:162
+#: flaskpet/templates/forum/search_result.html:184
+#: flaskpet/templates/forum/search_result.html:317
+#: flaskpet/templates/forum/topictracker.html:68
+#: flaskpet/templates/forum/topictracker.html:91
+#: flaskpet/templates/management/plugins.html:46
+msgid "by"
+msgstr "av"
+
+#: flaskpet/templates/forum/category_layout.html:123
+#: flaskpet/templates/forum/search_result.html:326
+msgid "No posts."
+msgstr "Inga inlägg."
+
+#: flaskpet/templates/forum/edit_forum.html:33
+#: flaskpet/templates/forum/forum.html:51
+#: flaskpet/templates/forum/search_result.html:136
+#: flaskpet/templates/forum/topictracker.html:33
+msgid "Views"
+msgstr "Visningar"
+
+#: flaskpet/templates/forum/edit_forum.html:107
+#: flaskpet/templates/forum/forum.html:128
+#: flaskpet/templates/forum/topictracker.html:107
+msgid "No Topics."
+msgstr "Inga trådar."
+
+#: flaskpet/templates/forum/edit_forum.html:117
+msgid "Back"
+msgstr "Tillbaka"
+
+#: flaskpet/templates/forum/edit_forum.html:128
+msgid "Lock"
+msgstr "Lås"
+
+#: flaskpet/templates/forum/edit_forum.html:131
+msgid "Unlock"
+msgstr "Lås upp"
+
+#: flaskpet/templates/forum/edit_forum.html:137
+msgid "Highlight"
+msgstr "Stjärnmärk"
+
+#: flaskpet/templates/forum/edit_forum.html:140
+msgid "Trivialize"
+msgstr "Ta bort stjärnmärkning"
+
+#: flaskpet/templates/forum/edit_forum.html:145
+#: flaskpet/templates/management/groups.html:65
+#: flaskpet/templates/management/reports.html:82
+#: flaskpet/templates/management/users.html:130
+msgid "Delete"
+msgstr "Ta bort"
+
+#: flaskpet/templates/forum/edit_forum.html:151
+msgid "Hide"
+msgstr "Dölj"
+
+#: flaskpet/templates/forum/edit_forum.html:154
+msgid "Unhide"
+msgstr "Visa"
+
+#: flaskpet/templates/forum/edit_forum.html:169
+msgid "Move to..."
+msgstr "Flytta till..."
+
+#: flaskpet/templates/forum/edit_forum.html:176
+msgid "Move"
+msgstr "Flytta"
+
+#: flaskpet/templates/forum/forum.html:25
+#: flaskpet/templates/management/reports.html:50
+#: flaskpet/templates/management/reports.html:74
+msgid "Mark as Read"
+msgstr "Markera som läst"
+
+#: flaskpet/templates/forum/forum.html:31
+#: flaskpet/templates/forum/topic_controls.html:116
+msgid "Locked"
+msgstr "Låst"
+
+#: flaskpet/templates/forum/forum.html:35
+#: flaskpet/templates/forum/new_topic.html:1
+#: flaskpet/templates/forum/new_topic.html:13
+#: flaskpet/templates/forum/new_topic.html:21
+msgid "New Topic"
+msgstr "Ny tråd"
+
+#: flaskpet/templates/forum/forum.html:97
+#, python-format
+msgid "Hidden on %(when)s  by %(who)s"
+msgstr "Dold %(when)s av %(who)s"
+
+#: flaskpet/templates/forum/forum.html:138
+msgid "Moderation Mode"
+msgstr "Modereringsläge"
+
+#: flaskpet/templates/forum/index.html:11
+msgid "Board Statistics"
+msgstr "Statistik"
+
+#: flaskpet/templates/forum/index.html:12
+msgid "Who is online?"
+msgstr "Besökare online"
+
+#: flaskpet/templates/forum/index.html:17
+msgid "Total number of registered users"
+msgstr "Totalt antal registrerade användare"
+
+#: flaskpet/templates/forum/index.html:18
+msgid "Total number of topics"
+msgstr "Totalt antal trådar"
+
+#: flaskpet/templates/forum/index.html:19
+msgid "Total number of posts"
+msgstr "Totalt antal inlägg"
+
+#: flaskpet/templates/forum/index.html:22
+msgid "Newest registered user"
+msgstr "Senaste registrerade användaren"
+
+#: flaskpet/templates/forum/index.html:22
+msgid "No users"
+msgstr "Inga användare"
+
+#: flaskpet/templates/forum/index.html:23
+msgid "Registered users online"
+msgstr "Registrerade användare online"
+
+#: flaskpet/templates/forum/index.html:25
+msgid "Guests online"
+msgstr "Gäster online"
+
+#: flaskpet/templates/forum/memberlist.html:48
+#: flaskpet/templates/forum/search_result.html:106
+#: flaskpet/templates/management/banned_users.html:64
+#: flaskpet/templates/management/users.html:63
+msgid "Date registered"
+msgstr "Registrerad"
+
+#: flaskpet/templates/forum/memberlist.html:50
+#: flaskpet/templates/forum/search_result.html:107
+#: flaskpet/templates/management/banned_users.html:65
+#: flaskpet/templates/management/users.html:64
+msgid "Group"
+msgstr "Grupp"
+
+#: flaskpet/templates/forum/new_post.html:1
+#: flaskpet/templates/forum/new_post.html:18
+#: flaskpet/templates/forum/new_post.html:30
+msgid "New Post"
+msgstr "Nytt inlägg"
+
+#: flaskpet/templates/forum/new_post.html:16
+#: flaskpet/templates/forum/new_post.html:28
+msgid "Edit Post"
+msgstr "Redigera inlägg"
+
+#: flaskpet/templates/forum/online_users.html:1
+#: flaskpet/templates/forum/online_users.html:13
+msgid "Online Users"
+msgstr "Användare online"
+
+#: flaskpet/templates/forum/report_post.html:1
+#: flaskpet/templates/forum/report_post.html:16
+msgid "Report Post"
+msgstr "Anmäl inlägg"
+
+#: flaskpet/templates/forum/report_post.html:20
+msgid "Report"
+msgstr "Anmäl"
+
+#: flaskpet/templates/forum/report_post.html:21
+msgid "Close"
+msgstr "Stäng"
+
+#: flaskpet/templates/forum/search_result.html:39
+#: flaskpet/templates/forum/topic.html:52
+#: flaskpet/templates/forum/topic_horizontal.html:59
+msgid "Joined"
+msgstr "Medlem sedan"
+
+#: flaskpet/templates/forum/search_result.html:43
+msgid "Message"
+msgstr "Meddelande"
+
+#: flaskpet/templates/forum/search_result.html:54
+#: flaskpet/templates/forum/topic.html:60
+msgid "Guest"
+msgstr "Gäst"
+
+#: flaskpet/templates/forum/search_result.html:89
+msgid "No posts found matching your search criteria."
+msgstr "Inga inlägg matchar din sökning"
+
+#: flaskpet/templates/forum/search_result.html:119
+#: flaskpet/templates/management/banned_users.html:104
+#: flaskpet/templates/management/users.html:139
+msgid "No users found matching your search criteria."
+msgstr "Inga användare matchar din sökning."
+
+#: flaskpet/templates/forum/search_result.html:197
+msgid "No topics found matching your search criteria."
+msgstr "Inga trådar matchar din sökning."
+
+#: flaskpet/templates/forum/search_result.html:335
+msgid "No forums found matching your search criteria."
+msgstr "Inga forum matchar din sökning."
+
+#: flaskpet/templates/forum/topic.html:2
+#: flaskpet/templates/forum/topic_horizontal.html:2
+#, python-format
+msgid "%(title)s - Topic"
+msgstr "%(title)s - tråd"
+
+#: flaskpet/templates/forum/topic.html:20
+#: flaskpet/templates/forum/topic_horizontal.html:20
+#, python-format
+msgid "This topic is hidden (%(when)s  by %(who)s)"
+msgstr "Denna tråd är dold (%(when)s av %(who)s)"
+
+#: flaskpet/templates/forum/topic.html:91
+#, python-format
+msgid "This post is hidden (%(when)s  by %(who)s)"
+msgstr "Detta inlägg är dolt (%(when)s av %(who)s)"
+
+#: flaskpet/templates/forum/topic_controls.html:15
+msgid "Moderate"
+msgstr "Moderera"
+
+#: flaskpet/templates/forum/topic_controls.html:24
+msgid "Delete Topic"
+msgstr "Ta bort tråd"
+
+#: flaskpet/templates/forum/topic_controls.html:36
+msgid "Lock Topic"
+msgstr "Lås tråden"
+
+#: flaskpet/templates/forum/topic_controls.html:45
+msgid "Unlock Topic"
+msgstr "Lås upp tråden"
+
+#: flaskpet/templates/forum/topic_controls.html:56
+msgid "Highlight Topic"
+msgstr "Stjärnmärk tråd"
+
+#: flaskpet/templates/forum/topic_controls.html:65
+msgid "Trivialize Topic"
+msgstr "Avmarkera tråden"
+
+#: flaskpet/templates/forum/topic_controls.html:77
+msgid "Unhide Topic"
+msgstr "Visa tråd"
+
+#: flaskpet/templates/forum/topic_controls.html:84
+msgid "Hide Topic"
+msgstr "Dölj tråd"
+
+#: flaskpet/templates/forum/topic_controls.html:99
+msgid "Untrack Topic"
+msgstr "Sluta följa tråden"
+
+#: flaskpet/templates/forum/topic_controls.html:106
+msgid "Track Topic"
+msgstr "Följ tråden"
+
+#: flaskpet/templates/forum/topictracker.html:117
+msgid "Untrack Topics"
+msgstr "Sluta följa trådar."
+
+#: flaskpet/templates/management/banned_users.html:1
+#: flaskpet/templates/management/banned_users.html:21
+#: flaskpet/templates/management/banned_users.html:34
+#: flaskpet/templates/management/user_form.html:21
+#: flaskpet/templates/management/users.html:20
+msgid "Banned Users"
+msgstr "Avstängda användare"
+
+#: flaskpet/templates/management/banned_users.html:10
+#: flaskpet/templates/management/banned_users.html:20
+#: flaskpet/templates/management/user_form.html:10
+#: flaskpet/templates/management/user_form.html:20
+#: flaskpet/templates/management/users.html:9
+#: flaskpet/templates/management/users.html:19
+msgid "Manage Users"
+msgstr "Hantera användare"
+
+#: flaskpet/templates/management/banned_users.html:70
+#: flaskpet/templates/management/groups.html:39
+#: flaskpet/templates/management/reports.html:45
+#: flaskpet/templates/management/users.html:68
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: flaskpet/templates/management/banned_users.html:75
+#: flaskpet/templates/management/users.html:79
+msgid "Unban selected Users"
+msgstr "Avblockera valda medlemmar"
+
+#: flaskpet/templates/management/category_form.html:20
+#: flaskpet/templates/management/forum_form.html:20
+#: flaskpet/templates/management/forums.html:19
+#: flaskpet/templates/management/forums.html:29
+msgid "Manage Forums"
+msgstr "Hantera forum"
+
+#: flaskpet/templates/management/forums.html:1
+#: flaskpet/templates/management/forums.html:9
+msgid "Forums"
+msgstr "Forum"
+
+#: flaskpet/templates/management/forums.html:51
+msgid "Delete Category"
+msgstr "Radera kategori"
+
+#: flaskpet/templates/management/forums.html:62
+msgid "Topics / Posts"
+msgstr "Trådar / Inlägg"
+
+#: flaskpet/templates/management/forums.html:99
+msgid "Edit Link"
+msgstr "Redigera länk"
+
+#: flaskpet/templates/management/forums.html:105
+msgid "Delete Link"
+msgstr "Radera länk"
+
+#: flaskpet/templates/management/forums.html:161
+msgid "Delete Forum"
+msgstr "Radera forum"
+
+#: flaskpet/templates/management/group_form.html:10
+#: flaskpet/templates/management/group_form.html:20
+#: flaskpet/templates/management/groups.html:9
+#: flaskpet/templates/management/groups.html:19
+msgid "Manage Groups"
+msgstr "Hantera grupper"
+
+#: flaskpet/templates/management/groups.html:1
+#: flaskpet/templates/management/groups.html:28
+#: flaskpet/templates/management/overview.html:88
+msgid "Groups"
+msgstr "Grupper"
+
+#: flaskpet/templates/management/groups.html:34
+msgid "Group Name"
+msgstr "Gruppnamn"
+
+#: flaskpet/templates/management/groups.html:44
+msgid "Delete selected Groups"
+msgstr "Radera valda grupper"
+
+#: flaskpet/templates/management/groups.html:59
+#: flaskpet/templates/management/users.html:102
+msgid "Edit"
+msgstr "Redigera"
+
+#: flaskpet/templates/management/groups.html:74
+msgid "No groups found."
+msgstr "Inga grupper hittades."
+
+#: flaskpet/templates/management/overview.html:1
+#: flaskpet/templates/management/overview.html:16
+#: flaskpet/templates/user/all_posts.html:16
+#: flaskpet/templates/user/all_topics.html:16
+#: flaskpet/templates/user/profile_layout.html:51
+msgid "Overview"
+msgstr "Översikt"
+
+#: flaskpet/templates/management/overview.html:25
+msgid "There is something that wants your attention."
+msgstr "Det är något som önskar din uppmärksamhet."
+
+#: flaskpet/templates/management/overview.html:26
+#, python-format
+msgid "You have <a href=\"%(url)s\">%(unread_reports)s unread reports</a>."
+msgstr "Du har <a href=\"%(url)s\">%(unread_reports)s olästa anmälningar</a>"
+
+#: flaskpet/templates/management/overview.html:30
+msgid "Everything seems alright."
+msgstr "Allt verkar bra."
+
+#: flaskpet/templates/management/overview.html:31
+msgid "No new notifications."
+msgstr "Inga olästa meddelanden."
+
+#: flaskpet/templates/management/overview.html:44
+msgid "users"
+msgstr "användare"
+
+#: flaskpet/templates/management/overview.html:56
+msgid "posts"
+msgstr "inlägg"
+
+#: flaskpet/templates/management/overview.html:68
+msgid "topics"
+msgstr "trådar"
+
+#: flaskpet/templates/management/overview.html:76
+msgid "Statistics"
+msgstr "Statistik"
+
+#: flaskpet/templates/management/overview.html:79
+msgid "Registered users"
+msgstr "Registrerade användare"
+
+#: flaskpet/templates/management/overview.html:82
+msgid "Online users"
+msgstr "Aktiva användare"
+
+#: flaskpet/templates/management/overview.html:85
+msgid "Banned users"
+msgstr "Avstängda användare"
+
+#: flaskpet/templates/management/overview.html:97
+#: flaskpet/templates/management/reports.html:1
+#: flaskpet/templates/management/reports.html:10
+#: flaskpet/templates/management/reports.html:31
+msgid "Reports"
+msgstr "Anmälningar"
+
+#: flaskpet/templates/management/overview.html:102
+msgid "Components"
+msgstr "Komponenter"
+
+#: flaskpet/templates/management/overview.html:128
+#: flaskpet/templates/management/plugins.html:1
+#: flaskpet/templates/management/plugins.html:9
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: flaskpet/templates/management/overview.html:169
+msgid "There is a problem."
+msgstr "Det finns ett problem."
+
+#: flaskpet/templates/management/overview.html:170
+msgid "Celery is <strong>not</strong> running."
+msgstr "Celery körs <strong>inte</strong>."
+
+#: flaskpet/templates/management/overview.html:171
+msgid "You can start celery with this command:"
+msgstr "Du kan starta Celery med det här kommandot:"
+
+#: flaskpet/templates/management/plugins.html:19
+msgid "Manage Plugins"
+msgstr "Hantera tillägg"
+
+#: flaskpet/templates/management/plugins.html:25
+msgid "Plugin"
+msgstr "Tillägg"
+
+#: flaskpet/templates/management/plugins.html:26
+msgid "Information"
+msgstr "Information"
+
+#: flaskpet/templates/management/plugins.html:27
+msgid "Manage"
+msgstr "Hantera"
+
+#: flaskpet/templates/management/plugins.html:44
+msgid "Version"
+msgstr "Version"
+
+#: flaskpet/templates/management/plugins.html:52
+msgid "Enable"
+msgstr "Aktivera"
+
+#: flaskpet/templates/management/plugins.html:57
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: flaskpet/templates/management/plugins.html:65
+msgid "Install"
+msgstr "Installera"
+
+#: flaskpet/templates/management/plugins.html:72
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+#: flaskpet/templates/management/reports.html:21
+msgid "Show all Reports"
+msgstr "Visa alla anmälningar"
+
+#: flaskpet/templates/management/reports.html:22
+msgid "Show unread Reports"
+msgstr "Visa olästa anmälningar"
+
+#: flaskpet/templates/management/reports.html:37
+msgid "Poster"
+msgstr "Anmäld"
+
+#: flaskpet/templates/management/reports.html:40
+msgid "Reporter"
+msgstr "Anmäld av"
+
+#: flaskpet/templates/management/reports.html:41
+msgid "Reported"
+msgstr "Tid för anmälan"
+
+#: flaskpet/templates/management/reports.html:55
+msgid "Delete selected reports"
+msgstr "Radera markerade anmälningar"
+
+#: flaskpet/templates/management/reports.html:90
+msgid "No reports."
+msgstr "Inga anmälningar."
+
+#: flaskpet/templates/management/users.html:73
+msgid "Ban selected Users"
+msgstr "Stäng av vald(a) användare"
+
+#: flaskpet/templates/management/users.html:85
+msgid "Delete selected Users"
+msgstr "Radera vald(a) användare"
+
+#: flaskpet/templates/user/all_posts.html:65
+msgid "The user has not written any posts yet."
+msgstr "Användaren har ännu inte skrivit några inlägg."
+
+#: flaskpet/templates/user/all_topics.html:67
+msgid "The user has not opened any topics yet."
+msgstr "Användaren har ännu inte skapat några trådar."
+
+#: flaskpet/templates/user/change_email.html:7
+msgid "Change E-Mail Address"
+msgstr "Ändra e-postadress"
+
+#: flaskpet/templates/user/change_password.html:7
+msgid "Change Password"
+msgstr "Byt lösenord"
+
+#: flaskpet/templates/user/change_user_details.html:8
+msgid "Change User Details"
+msgstr "Ändra användaruppgifter"
+
+#: flaskpet/templates/user/general_settings.html:7
+msgid "General Settings"
+msgstr "Generella inställningar"
+
+#: flaskpet/templates/user/profile.html:19
+msgid "Info"
+msgstr "Information"
+
+#: flaskpet/templates/user/profile.html:30
+msgid "User has not added any notes about him."
+msgstr "Användaren har inte skrivit något om sig själv."
+
+#: flaskpet/templates/user/profile.html:38
+msgid "Signature"
+msgstr "Signatur"
+
+#: flaskpet/templates/user/profile_layout.html:27
+msgid "Never seen"
+msgstr "Aldrig varit inloggad"
+
+#: flaskpet/user/forms.py:33
+msgid "Theme"
+msgstr "Tema"
+
+#: flaskpet/user/forms.py:39
+msgid "Old email address"
+msgstr "Gammal e-postadress"
+
+#: flaskpet/user/forms.py:43
+msgid "New email address"
+msgstr "Ny e-postadress"
+
+#: flaskpet/user/forms.py:45
+msgid "Email addresses must match."
+msgstr "E-postadresserna stämmer inte."
+
+#: flaskpet/user/forms.py:48
+msgid "Confirm email address"
+msgstr "Bekräfta e-postadress"
+
+#: flaskpet/user/forms.py:70
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: flaskpet/user/forms.py:72
+msgid "New passwords must match."
+msgstr "Lösenorden måste vara samma."
+
+#: flaskpet/user/forms.py:75
+msgid "Confirm new password"
+msgstr "Bekräfta nytt lösenord"
+
+#: flaskpet/user/forms.py:81
+msgid "Old password is wrong."
+msgstr "Det gamla lösenordet är fel."
+
+#: flaskpet/user/forms.py:102
+msgid "Forum Signature"
+msgstr "Signatur"
+
+#: flaskpet/user/views.py:59
+msgid "Settings updated."
+msgstr "Uppdaterade inställningar."
+
+#: flaskpet/user/views.py:80
+msgid "Password updated."
+msgstr "Lösenordet har uppdaterats."
+
+#: flaskpet/user/views.py:99
+msgid "Email address updated."
+msgstr "E-postadressen har uppdaterats."
+
+#: flaskpet/user/views.py:119
+msgid "User details updated."
+msgstr "Användardetaljer uppdaterade."
+
+#: flaskpet/utils/helpers.py:109
+msgid "You do not have the permissions to execute this action."
+msgstr "Du har inte behörighet att utföra detta."
+
+#: flaskpet/utils/helpers.py:125
+msgid "You do not have the permissions to delete these topics."
+msgstr "Du har inte behörighet att radera dessa trådar."
+
+#: flaskpet/utils/helpers.py:134
+msgid "You do not have the permissions to hide these topics."
+msgstr "Du har inte behörighet att dölja dessa trådar."
+
+#: flaskpet/utils/helpers.py:145
+msgid "You do not have the permissions to unhide these topics."
+msgstr "Du har inte behörighet att visa dessa trådar."
+
+#: flaskpet/utils/helpers.py:741
+msgid "The registration has been disabled."
+msgstr "Registreringen är stängd."
+
+#: flaskpet/utils/helpers.py:753
+msgid "This account is already activated."
+msgstr "Kontot är redan aktiverat."
